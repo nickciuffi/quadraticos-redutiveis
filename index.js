@@ -21,7 +21,7 @@ inputc.addEventListener("change", (e) =>{
 
 function atualizaTela(){
     const funcInput = document.querySelector("#equation-shower");
-    funcInput.innerHTML = `${a ? a : 'a'}x² ${b>=0 ? '+' : '-'} ${b ? b >= 0 ? b : b * -1 : 'b'}x ${c>=0 ? '+' : '-'} ${c ? c >= 0 ? c : c * -1 : 'c'} = 0`;
+    funcInput.innerHTML = `${a ? a : '0'}x² ${b>=0 ? '+' : '-'} ${b ? b >= 0 ? b : b * -1 : '0'}x ${c>=0 ? '+' : '-'} ${c ? c >= 0 ? c : c * -1 : '0'} = 0`;
 }
 
 function getRaizes(delta){
